@@ -7,7 +7,7 @@
 See [`test.js`](test.js), for an example on how to retrieve all connected displays:
 
 ```js
-const displays = require('displays')();
+const displays = require("displays")();
 console.log("got displays", displays);
 ```
 
