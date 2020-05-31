@@ -38,7 +38,7 @@ Written by [Kristian Kraljić](https://kra.lc/).
 
 ## Reporting bugs
 
-Please file any issues [on Github](https://github.com/kristian/litfass).
+Please file any issues [on Github](https://github.com/kristian/displays/issues).
 
 ## License
 
