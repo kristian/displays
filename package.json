@@ -1,6 +1,6 @@
 {
   "name": "displays",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A native cross-platform module for Windows, Linux / X11 and macOS / OSX for retrieving the resolution and position of all connected and active displays / monitors / screens",
   "keywords": [
     "display",
