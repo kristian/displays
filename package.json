@@ -1,0 +1,50 @@
+{
+  "name": "displays",
+  "version": "1.0.0",
+  "description": "A native cross-platform module for Windows, Linux / X11 and macOS / OSX for retrieving the resolution and position of all connected and active displays / monitors / screens",
+  "keywords": [
+    "display",
+    "monitor",
+    "screen",
+    "resolution",
+    "pixels"
+  ],
+  "author": {
+    "name": "Kristian Kraljic",
+    "email": "kris@kra.lc",
+    "url": "https://kra.lc/"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=11"
+  },
+  "files": [
+    "binding.gyp",
+    "displays.cc",
+    "displays.h",
+    "headers.h",
+    "linux.cc",
+    "osx.cc",
+    "test.js",
+    "win.cc"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kristian/displays.git"
+  },
+  "homepage": "https://github.com/kristian/displays#readme",
+  "scripts": {
+    "test": "node test.js",
+    "configure": "node-gyp configure",
+    "build": "node-gyp build",
+    "install": "node-gyp rebuild"
+  },
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "nan": "^2.14.1"
+  },
+  "devDependencies": {
+    "node-gyp": "^6.1.0"
+  }
+}
