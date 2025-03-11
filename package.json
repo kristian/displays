@@ -1,6 +1,6 @@
 {
   "name": "displays",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "description": "A native cross-platform module for Windows, Linux / X11 and macOS / OSX for retrieving the resolution and position of all connected and active displays / monitors / screens",
   "keywords": [
     "display",
@@ -43,7 +43,7 @@
   "gypfile": true,
   "dependencies": {
     "bindings": "^1.5.0",
-    "nan": "^2.14.1",
-    "node-gyp": "^6.1.0"
+    "nan": "^2.22.2",
+    "node-gyp": "^11.1.0"
   }
 }
